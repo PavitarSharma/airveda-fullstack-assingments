@@ -1,0 +1,42 @@
+.form__container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.form__container form {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  max-width: 250px;
+  width: 100%;
+  padding: 14px 14px;
+}
+
+.form-group {
+  margin: 8px 0;
+}
+
+.form-group label {
+  font-size: 12px;
+}
+
+
+.form-group input {
+    border: 1px solid #b6b4b4;
+    padding: 10px;
+    margin-top: 4px;
+    width: 100%;
+    outline: none;
+    border-radius: 4px;
+}
+
+.form__container form button  {
+    width: 100%;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    background-color: aquamarine;
+}
